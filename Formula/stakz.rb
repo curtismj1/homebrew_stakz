@@ -19,7 +19,7 @@ class Stakz < Formula
           "Accept: application/octet-stream",
           "Authorization: bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
         ]
-      sha256 "fd81a7724b0b88fe71bdbfc165b2cbb6851870399a3fc5a84f98733c4a2af085"
+      sha256 "f14f73e4f6261a64cdb6206f29cf1aa37cb7f0b31b4ca4dc5c188744354f802d"
 
       def install
         bin.install "stakz"
@@ -31,7 +31,7 @@ class Stakz < Formula
           "Accept: application/octet-stream",
           "Authorization: bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
         ]
-      sha256 "51f218b4c23ae7f6671c1134e73d9ca40e93c2e837fcd1f9a7bd6630c1259270"
+      sha256 "57c471f53f61600b5d83d959f004238330efa37ad840e33be4df358a4847dd81"
 
       def install
         bin.install "stakz"
@@ -47,7 +47,7 @@ class Stakz < Formula
             "Accept: application/octet-stream",
             "Authorization: bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
           ]
-        sha256 "6a52390c386cb0a55732be7cd6ae1b05ea47f1dcc31ffc8b318f3b4bdf2d65c9"
+        sha256 "40fffd760930e3953ab83c5f4c80082e99daf72a3cb928878bc2b7309f4447aa"
 
         def install
           bin.install "stakz"
@@ -61,7 +61,7 @@ class Stakz < Formula
             "Accept: application/octet-stream",
             "Authorization: bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
           ]
-        sha256 "fe23ef059e19ed636971d92956deac012336808ccb13acc6c99339f96e64df9f"
+        sha256 "5e1bc09bf4e2496341aeee8aeb91ac94fbc3264d51ebda0847cea5c0b0bc1aa6"
 
         def install
           bin.install "stakz"
