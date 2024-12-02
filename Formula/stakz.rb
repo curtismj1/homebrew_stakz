@@ -13,16 +13,16 @@ class Stakz < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/writeabyte/homebrew-stakz/releases/download/v0.1.0/stakz-server_Darwin_x86_64.tar.gz"
-      sha256 "dd760f8e613e946c9c510013de0f667f6055db8d1191471ca9f738cd5628cd95"
+      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_x86_64.tar.gz"
+      sha256 "3d45b1302cb2c1a85c426dc58b863f2f11224c4e3318122f2ba110b44cb1c314"
 
       def install
         bin.install "stakz"
       end
     end
     on_arm do
-      url "https://github.com/writeabyte/homebrew-stakz/releases/download/v0.1.0/stakz-server_Darwin_arm64.tar.gz"
-      sha256 "bcdcdf6199eed4e5718ee6810fcab94be3458e7aa27cdbbf8a5968ee841996dc"
+      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_arm64.tar.gz"
+      sha256 "279101bb667d9fee284782fcd33a7e405cf41df57058a0f67e0c11d24c0070fb"
 
       def install
         bin.install "stakz"
@@ -33,8 +33,8 @@ class Stakz < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/writeabyte/homebrew-stakz/releases/download/v0.1.0/stakz-server_Linux_x86_64.tar.gz"
-        sha256 "6da6d86a0be8ea86b836372735081b547ac2498c58d557300b7a5d20fd43dd44"
+        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_x86_64.tar.gz"
+        sha256 "81392be110686dfcebb3869bcea8b9ca1c76eba3df4b722531020192e6940ecd"
 
         def install
           bin.install "stakz"
@@ -43,8 +43,8 @@ class Stakz < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/writeabyte/homebrew-stakz/releases/download/v0.1.0/stakz-server_Linux_arm64.tar.gz"
-        sha256 "71165c24cbcd5ad7ce7349e61e9fa1e779e8b0f533680d06f245804f1e08ec0f"
+        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_arm64.tar.gz"
+        sha256 "34450d386cba5eb27d823147a75d2ab545efef4db91551cea818a6434f4b9e68"
 
         def install
           bin.install "stakz"
