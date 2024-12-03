@@ -14,7 +14,7 @@ class Stakz < Formula
   on_macos do
     on_intel do
       url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_x86_64.tar.gz"
-      sha256 "3d45b1302cb2c1a85c426dc58b863f2f11224c4e3318122f2ba110b44cb1c314"
+      sha256 "58d5ed1e56c9935c20c58f3b67f23f87f6b79169e087fede767a07256a310733"
 
       def install
         bin.install "stakz"
@@ -22,7 +22,7 @@ class Stakz < Formula
     end
     on_arm do
       url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_arm64.tar.gz"
-      sha256 "279101bb667d9fee284782fcd33a7e405cf41df57058a0f67e0c11d24c0070fb"
+      sha256 "e46217329939e7d05b8bc7fa2a5f21cd160fc03be9f03aab0266ab707ff9809f"
 
       def install
         bin.install "stakz"
@@ -34,7 +34,7 @@ class Stakz < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_x86_64.tar.gz"
-        sha256 "81392be110686dfcebb3869bcea8b9ca1c76eba3df4b722531020192e6940ecd"
+        sha256 "cb47b246170181e173f96740d8782ca72f3aaab571cddccfe48147b402dd25e9"
 
         def install
           bin.install "stakz"
@@ -44,7 +44,7 @@ class Stakz < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_arm64.tar.gz"
-        sha256 "34450d386cba5eb27d823147a75d2ab545efef4db91551cea818a6434f4b9e68"
+        sha256 "60198d860c5d68361b8d8a38b105b5099c7ba26cff07b0296b1ccc9459f45772"
 
         def install
           bin.install "stakz"
