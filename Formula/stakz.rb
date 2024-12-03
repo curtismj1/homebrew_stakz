@@ -5,7 +5,7 @@
 class Stakz < Formula
   desc "Simple local command runner and file server compatible with stakz.dev"
   homepage "https://stakz.dev"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "git" if OS.mac?
@@ -13,16 +13,16 @@ class Stakz < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_x86_64.tar.gz"
-      sha256 "58d5ed1e56c9935c20c58f3b67f23f87f6b79169e087fede767a07256a310733"
+      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.1/stakz-server_Darwin_x86_64.tar.gz"
+      sha256 "b7e7ff3d5629e29b0784f3acd5d6f9e68c096eaf0d05e58376d28de365f27726"
 
       def install
         bin.install "stakz"
       end
     end
     on_arm do
-      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Darwin_arm64.tar.gz"
-      sha256 "e46217329939e7d05b8bc7fa2a5f21cd160fc03be9f03aab0266ab707ff9809f"
+      url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.1/stakz-server_Darwin_arm64.tar.gz"
+      sha256 "6922a8cbef4b4baa179a5e11315df5762dd66b32e976c1f4d1ac7108fafa19d2"
 
       def install
         bin.install "stakz"
@@ -33,8 +33,8 @@ class Stakz < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_x86_64.tar.gz"
-        sha256 "cb47b246170181e173f96740d8782ca72f3aaab571cddccfe48147b402dd25e9"
+        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.1/stakz-server_Linux_x86_64.tar.gz"
+        sha256 "70c825049c3b9f02408656d756eb600ef9c95522a5f59fad299d16671cb1d254"
 
         def install
           bin.install "stakz"
@@ -43,8 +43,8 @@ class Stakz < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.0/stakz-server_Linux_arm64.tar.gz"
-        sha256 "60198d860c5d68361b8d8a38b105b5099c7ba26cff07b0296b1ccc9459f45772"
+        url "https://github.com/writeabyte/stakz-server/releases/download/v0.1.1/stakz-server_Linux_arm64.tar.gz"
+        sha256 "ccdd0b8fc58beb01a24b86dc3d866a17a999135fbebd508743178a77ee034c3e"
 
         def install
           bin.install "stakz"
